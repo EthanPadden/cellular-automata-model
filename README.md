@@ -4,7 +4,7 @@
 
 This is a model plugin for [Evoplex](https://evoplex.org) and is included by default in the software.
 
-It implements the [elementary cellular automaton rules](http://mathworld.wolfram.com/ElementaryCellularAutomaton.html) 30, 32, 110 and 250.
+It implements the [256 elementary cellular automaton rules](http://mathworld.wolfram.com/ElementaryCellularAutomaton.html).
 
 ## How it works
 
