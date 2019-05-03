@@ -1,15 +1,13 @@
 {
   "type": "model",
-  "uid": "minimalModel",
+  "uid": "cellularAutomata1D",
   "version": 1,
-  "title": "Mininal Model",
-  "author": "Evoplex",
-  "description": "This is a mininal example of a model plugin for Evoplex.",
+  "title": "Cellular Automata 1D",
+  "author": "Ethan Padden, Marcos Cardinot and Eleftheria Chatziargyriou",
+  "description": "This model implements elementary cellular automata.",
 
-  "pluginAttributesScope": [],
-  "nodeAttributesScope": [],
-  "edgeAttributesScope": [],
+  "pluginAttributesScope": [ {"rule": "int[0,255]"} ],
+  "nodeAttributesScope": [ {"state": "bool"} ],
 
-  "supportedGraphs": [],
-  "customOutputs": []
+  "supportedGraphs": [ "squareGrid" ]
 }
